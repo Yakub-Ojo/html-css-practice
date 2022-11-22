@@ -13,7 +13,52 @@ body{
   border: none;
   cursor: pointer;
 }
-
+.subscribe:hover{
+  background-color: rgba(250, 51, 51, 0.8);
+}
+.follow{
+  color: buttontext;
+  background-color: buttonface;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 17px;
+  font-weight: 550;
+  border: none;
+  cursor: pointer;
+}
+.follow:hover{
+  background-color: rgba(250, 51, 51, 0.1);
+}
+.followers{
+  color: buttontext;
+  background-color: none;
+  padding: 1px 6px;
+  border-color: none;
+}
+.likes{
+  color: buttontext;
+  background-color: white;
+  padding: 1px 6px;
+  border-color: none;
+  border: none;
+}
+.like{
+  color: buttontext;
+  background-color: buttonface;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 17px;
+  font-weight: 550;
+  border: none;
+  cursor: pointer;
+}
+.like:hover{
+  background-color: rgba(250, 51, 51, 0.1);
+}
 .body1{
   text-align: center;
   font-family: montserrat;
